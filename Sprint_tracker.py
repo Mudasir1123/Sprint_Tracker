@@ -27,16 +27,16 @@ dark_mode_styles = """
         .stSlider, 
         .stButton button, 
         .stDownloadButton button {
-            color: white !important;
+            color: black !important;
         }
 
         /* Fix placeholder color */
-        ::placeholder { color: #ddd !important; opacity: 1 !important; }
+        ::placeholder { color: black !important; opacity: 1 !important; }
 
         /* Fix sliders and buttons */
         .stSlider div[role="slider"], .stButton button, .stDownloadButton button {
             background-color: #444 !important;
-            color: white !important;
+            color: black !important;
             border: 1px solid #888 !important;
         }
     </style>
